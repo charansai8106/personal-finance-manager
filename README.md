@@ -1,4 +1,4 @@
-# 💰 Personal Finance Manager
+#  Personal Finance Manager
 
 A **console-based Personal Finance Management System** built using **Core Java (JDK 17)** and **Object-Oriented Programming** principles. This project allows users to register/login, track their income and expenses, set monthly budgets, and generate detailed financial reports — all through a clean, menu-driven command-line interface.
 
@@ -6,37 +6,37 @@ Built as a placement-preparation project to demonstrate strong fundamentals in J
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Personal Finance Manager helps users take control of their money by recording income and expenses, categorizing spending, setting monthly budgets, and generating insightful reports (savings, category-wise spending, highest/lowest expense, etc.). All data is automatically saved to disk in human-readable CSV files and reloaded the next time the application starts — no database required.
 
 ---
 
-## ✨ Features
+##  Features
 
-### 👤 User Management
+###  User Management
 - Register a new account with username, password, full name & email
 - Login with credential verification
 - Logout
 
-### 💵 Income Management
+###  Income Management
 - Add / Update / Delete income entries
 - View all income (sorted by date)
 - Search income by keyword
 
-### 💸 Expense Management
+###  Expense Management
 - Add / Update / Delete expense entries
 - View all expenses
 - Search expenses by keyword
 - Categorize expenses into: `FOOD`, `TRAVEL`, `SHOPPING`, `RENT`, `MEDICAL`, `ENTERTAINMENT`, `EDUCATION`, `OTHERS`
 
-### 📊 Budget Module
+###  Budget Module
 - Set a monthly budget limit
 - View remaining budget for any month
 - Automatic **warning** when 80%+ of budget is used
 - **Budget exceeded** alert when spending crosses the limit
 
-### 📈 Reports
+###  Reports
 - Total Income
 - Total Expense
 - Net Savings
@@ -46,31 +46,31 @@ Personal Finance Manager helps users take control of their money by recording in
 - Lowest Expense
 - Export full report to a `.txt` file
 
-### 🔍 Search Module
+###  Search Module
 Search income/expenses by:
 - Date
 - Category
 - Amount
 - Keyword
 
-### ↕️ Sorting
+###  Sorting
 Sort expenses by:
 - Amount
 - Date
 - Category
 
-### 🗂️ File Handling
+###  File Handling
 - Data is auto-saved to CSV files inside the `/data` folder
 - `/data` folder and files are created automatically on first run
 - Data automatically loads back in on every startup
 
-### 🛡️ Exception Handling
+###  Exception Handling
 - Every user input is validated
 - Invalid input never crashes the application — the user is simply re-prompted
 
 ---
 
-## 🗃️ Folder Structure
+## Folder Structure
 
 ```
 PersonalFinanceManager/
@@ -108,7 +108,7 @@ PersonalFinanceManager/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology | Purpose |
 |---|---|
@@ -124,7 +124,7 @@ No Spring Boot. No Maven/Gradle. No external libraries — **pure Core Java**.
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### Option 1: IntelliJ IDEA
 1. Open IntelliJ IDEA → `Open` → select the `PersonalFinanceManager` folder
@@ -152,7 +152,7 @@ java -cp out Main
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 > _Add screenshots of the console menu, reports, and sample output here before uploading to GitHub._
 
@@ -167,7 +167,7 @@ java -cp out Main
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Migrate storage to a relational database (MySQL/PostgreSQL) using JDBC
 - Add password hashing (currently stored as plain text for simplicity)
@@ -177,14 +177,5 @@ java -cp out Main
 - Add recurring/scheduled transactions (e.g. monthly rent, subscriptions)
 - Add unit tests using JUnit
 
----
 
-## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use, modify, and distribute it for learning or portfolio purposes.
-
----
-
-### 👨‍💻 Author
-
-Built as a resume/portfolio project to demonstrate Core Java, OOP design, and file-handling skills for software engineering placements.
