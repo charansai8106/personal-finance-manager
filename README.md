@@ -95,14 +95,14 @@ PersonalFinanceManager/
 │   │   └── SearchService.java          # Unified search across income & expense
 │   │
 │   ├── storage/
-│   │   └── FileManager.java            # CSV file read/write (BufferedReader/Writer)
+│   │   └── FileManager.java            # CSV file read/write 
 │   │
 │   └── utils/
 │       ├── InputValidator.java         # Console input validation helpers
 │       ├── DateUtil.java               # Date parsing/formatting helpers
 │       └── CurrencyFormatter.java      # Currency display formatting
 │
-├── data/                                # Auto-generated CSV data files (created at runtime)
+├── data/                                
 ├── README.md
 ```
 
