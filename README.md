@@ -154,7 +154,7 @@ java -cp out Main
 
 ## Screenshots
 
-> _Add screenshots of the console menu, reports, and sample output here before uploading to GitHub._
+
 
 ```
 =========================================
